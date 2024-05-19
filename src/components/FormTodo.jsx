@@ -60,14 +60,14 @@ const FormTodo = ({ setTasks }) => {
 						name="title"
 						value={taskData.title}
 						onChange={ubahInput}
-						className="w-[400px] bg-gray-50 border-gray-300  text-gray-900 text-sm rounded-t-lg sm:rounded-none sm:rounded-l-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+						className="w-[400px] bg-gray-50 border-gray-300  text-gray-900 text-sm rounded-t-lg sm:rounded-none sm:rounded-l-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 border focus:outline-blue-500"
 						placeholder="Tuliskan Todo Anda"
 						required
 					/>
 
 					<select
 						onChange={ubahInput}
-						className="bg-gray-50  border-gray-300  text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+						className="bg-gray-50  border-gray-300  text-gray-900 text-sm focus:border-blue-500 block p-2.5 border focus:ring-blue-500 dark:focus:border-blue-500"
 						name="column">
 						<option value="todo">Todo</option>
 						<option value="doing">Progres</option>
@@ -76,7 +76,7 @@ const FormTodo = ({ setTasks }) => {
 
 					<button
 						type="submit"
-						className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 rounded-b-lg p-2.5 focus:ring-blue-300 font-medium sm:rounded-none  sm:rounded-r-lg text-sm px-6 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 ">
+						className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 rounded-b-lg p-2.5 focus:ring-blue-300 font-medium sm:rounded-none sm:rounded-r-lg text-sm px-6">
 						Tambah Todo
 					</button>
 				</div>
